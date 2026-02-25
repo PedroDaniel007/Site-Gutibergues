@@ -1,0 +1,256 @@
+		/* Estilos para o vídeo em background */
+		.fh5co-hero {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+
+}
+
+    #carouselExampleIndicators {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    }
+    #carouselExampleIndicators .carousel-inner {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+    }
+    #carouselExampleIndicators img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    }
+    @media (max-width: 768px) {
+    #carouselExampleIndicators img {
+        height: 300px;
+    }
+}
+/* Indicadores modernos */
+.carousel-indicators {
+    bottom: 12px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.carousel-indicators .active {
+    background-color: #c8a165;
+}
+@media (max-width: 768px) {
+    .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+    }
+}
+@media (max-width: 768px) {
+
+    .carousel-content {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .carousel-content h2 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .carousel-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .button-container a {
+        width: 100%;
+        max-width: 280px;
+        padding: 16px 0;
+        font-size: 18px;
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 60% 60%;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
+}
+.carousel-counter {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    z-index: 10;
+}
+
+    .fh5co-cover video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(50%); /* Reduz o brilho do vídeo para 50% */
+    }
+
+    .fh5co-cover {
+        padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: auto !important;
+}
+
+    .fh5co-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Overlay preto com transparência de 50% */
+    }
+
+    .fh5co-cover .desc {
+        position: relative;
+        z-index: 1;
+    }
+
+        /* Fundo preto para o campo do carrossel */
+        .carousel-section {
+            background-color: black;
+            color: white;
+            padding: 20px;
+             margin-top: 0 !important;
+            padding-top: 20px; /* ajuste fino aqui */
+        }
+
+        /* Título maior */
+        .carousel-section h2 {
+            font-size: 28px;
+        }
+
+        /* Texto maior */
+        .carousel-section p {
+            font-size: 18px;
+        }
+
+        /* Alinhamento central do texto ao lado do carrossel */
+		.carousel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white; /* Alterando a cor do texto */
+}
+.button-container {
+            margin-top: 10px; /* Espaçamento entre o texto e o botão */
+        }
+
+        .button-container a {
+            display: inline-block;
+            padding: 15px 20px;
+            background-color: #c8a165;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px; /* Define um raio para as bordas */
+			font-size: 20px;
+        }
+#footer {
+    background: #111;
+    padding: 50px 0 30px;
+}
+
+.footer-container {
+    color: #ccc;
+}
+
+/* COLUNAS */
+.footer-top {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ESQUERDA */
+.footer-info {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.footer-address {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.footer-phone {
+    margin-bottom: 4px;
+}
+
+/* DIREITA */
+.footer-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* centraliza verticalmente */
+    margin: 0 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    font-size: 26px;
+    color: #ccc;
+    margin-left: 18px;
+    transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #c8a165;
+}
+
+/* LINHA CENTRAL */
+/* LINHA VERTICAL CENTRAL NO FOOTER */
+/* LINHA VERTICAL CENTRAL NO FOOTER */
+/* ==========================
+   LINHA VERTICAL FOOTER (REAL)
+========================== */
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer-divider {
+    width: 1px;
+    height: 80px;
+    background: rgba(255,255,255,0.3);
+    margin: 0 30px;
+}
+
+.footer-top {
+    position: relative;
+    min-height: 90px; /* garante altura para a linha */
+}
+/* COPYRIGHT */
+.footer-copy {
+    font-size: 14px;
+    color: #999;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+@media (max-width: 768px) {
+
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+}

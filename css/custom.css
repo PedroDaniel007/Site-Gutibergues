@@ -1,0 +1,944 @@
+/* =====================================================
+   FOOTER
+   ===================================================== */
+#footer {
+    background: #111;
+}
+
+#footer p,
+#footer a {
+    color: #ccc;
+}
+
+#footer a:hover {
+    color: #c8a165;
+}
+
+/* =====================================================
+   MAPA / IFRAME
+   ===================================================== */
+iframe {
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* =====================================================
+   HEADER / NAVBAR
+   ===================================================== */
+#fh5co-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(6px);
+}
+
+#fh5co-header-section .nav-header ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+#fh5co-header-section .nav-header ul li a:hover {
+    color: #c8a165;
+}
+
+/* Logo */
+a.logo img {
+    width: 200px;
+}
+
+a.logo {
+    margin-right: 40px;
+}
+
+/* =====================================================
+   HERO / COVER
+   ===================================================== */
+.fh5co-cover .fh5co-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+/* Quebra centralização padrão do FH5CO */
+.fh5co-cover .desc {
+    position: relative !important;
+    top: 190px !important;
+    transform: none !important;
+    margin-top: 600px;
+    z-index: 3;
+}
+
+/* Logo do Hero */
+.hero-logo {
+    width: 300px;
+    margin-top: 170px;
+    margin-bottom: 15px;
+}
+
+/* Texto do Hero */
+.hero-title {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    color: #eee;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Botão Hero */
+.hero-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #c8a165;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: #b18c52;
+    transform: translateY(-2px);
+}
+
+/* =====================================================
+   LISTING / CARDS
+   ===================================================== */
+.fh5co-listing-item {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: none;
+    transition: 0.3s ease;
+}
+
+.fh5co-listing-item:hover {
+    transform: translateY(-4px);
+}
+
+.fh5co-listing-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Remove ícones e losangos */
+.fh5co-listing-copy span.icon,
+.fh5co-listing-copy:before,
+.fh5co-listing-copy:after,
+.fh5co-listing-copy span.icon:before,
+.fh5co-listing-copy span.icon:after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Texto sobre o mapa */
+.fh5co-listing .text-over-map {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fh5co-item-wrap,
+.fh5co-listing-item,
+.fh5co-listing-item:hover,
+.fh5co-item-wrap:hover,
+.fh5co-item-wrap * {
+    box-shadow: none !important;
+}
+
+/* Desliga hover visual */
+.fh5co-item-wrap {
+    pointer-events: none;
+}
+
+/* Reativa clique apenas no link */
+.fh5co-item-wrap a {
+    pointer-events: auto;
+}
+
+/* Garante visual totalmente estático */
+.fh5co-item-wrap *,
+.fh5co-item-wrap:hover *,
+.fh5co-listing-item:hover * {
+    opacity: 1 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    filter: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+/* Espaço real entre hero e cards */
+.fh5co-listing:first-of-type {
+    margin-top: 120px;
+}
+
+/* =====================================================
+   TEXTO / SEÇÕES
+   ===================================================== */
+.fh5co-heading h3,
+.fh5co-heading p {
+    font-size: 110%;
+}
+
+/* =====================================================
+   MAPA (TAMANHO)
+   ===================================================== */
+.fh5co-listing iframe {
+    width: 480px;
+    height: 360px;
+}
+/* ==========================
+   SOBRE A EMPRESA - PREMIUM
+========================== */
+
+.about-company-premium {
+    background: #fafafa;
+    padding: 80px 0;
+}
+
+.about-title-premium {
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.about-divider {
+    display: inline-block;
+    width: 80px;
+    height: 3px;
+    background: #c8a165;
+    margin-bottom: 60px;
+}
+
+/* CONTEÚDO */
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-text-premium {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #444;
+    padding-right: 40px;
+}
+
+/* ==========================
+   GOOGLE RATING PREMIUM
+========================== */
+
+.google-rating-premium {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.google-badge {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.google-score-big {
+    font-size: 64px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1;
+}
+
+.google-stars-premium {
+    font-size: 26px;
+    color: #f4b400;
+    margin: 10px 0 15px;
+}
+
+.google-text {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* RESPONSIVO */
+@media (max-width: 991px) {
+    .about-content {
+        display: block;
+    }
+
+    .about-text-premium {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .about-title-premium {
+        font-size: 34px;
+    }
+}
+/* ==========================
+   LANDING SOBRE NÓS
+========================== */
+
+.about-landing {
+    background: #ffffff;
+}
+
+/* HERO */
+.about-hero {
+    background: #111;
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about-hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #ddd;
+}
+
+/* CONTEÚDO */
+.about-main {
+    padding: 80px 0;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #555;
+}
+
+/* IMAGEM SHOWROOM */
+.about-image {
+    padding-left: 40px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+/* GOOGLE RATING */
+.about-rating {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.google-rating-box {
+    display: inline-block;
+    background: #fafafa;
+    padding: 50px 60px;
+    border-radius: 20px;
+}
+
+.google-rating-box .badge {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+.google-rating-box .score {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.google-rating-box .stars {
+    color: #f4b400;
+    font-size: 26px;
+}
+
+.google-rating-box p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #666;
+}
+
+/* RESPONSIVO */
+@media (max-width: 991px) {
+    .align-center {
+        display: block;
+    }
+
+    .about-image {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .about-hero h1 {
+        font-size: 36px;
+    }
+}
+/* ==========================
+   CTA FINAL - SOBRE NÓS
+========================== */
+
+.about-cta {
+    background: linear-gradient(135deg, #111, #222);
+    color: #fff;
+    padding: 90px 20px;
+}
+
+.about-cta h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about-cta p {
+    font-size: 17px;
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: #ddd;
+    line-height: 1.7;
+}
+
+/* BOTÃO */
+.cta-btn {
+    display: inline-block;
+    padding: 16px 42px;
+    border-radius: 50px;
+    background: #c8a165;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #b08a4f;
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .about-cta h2 {
+        font-size: 28px;
+    }
+
+    .about-cta p {
+        font-size: 16px;
+    }
+}
+/* ==========================
+   CTA + MAPA PREMIUM
+========================== */
+
+.about-cta-map {
+    background: linear-gradient(135deg, #111, #1c1c1c);
+    color: #fff;
+    padding: 90px 0;
+}
+
+.about-cta-map h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about-cta-map p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #ddd;
+    max-width: 520px;
+    margin-bottom: 35px;
+}
+
+/* BOTÕES */
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 36px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+/* BOTÃO PRINCIPAL */
+.cta-btn.primary {
+    background: #c8a165;
+    color: #fff;
+}
+
+.cta-btn.primary:hover {
+    background: #b08a4f;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* BOTÃO SECUNDÁRIO */
+.cta-btn.secondary {
+    border: 1px solid #c8a165;
+    color: #c8a165;
+    background: transparent;
+}
+
+.cta-btn.secondary:hover {
+    background: #c8a165;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* ÍCONE WHATSAPP */
+.cta-btn i {
+    font-size: 18px;
+}
+
+/* MAPA */
+.cta-map {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+}
+
+.cta-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* RESPONSIVO */
+@media (max-width: 991px) {
+    .about-cta-map {
+        text-align: center;
+    }
+
+    .about-cta-map p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
+
+/* ==========================
+   CTA PREMIUM – AUTORIDADE
+========================== */
+
+.cta-badge {
+    display: inline-block;
+    background: rgba(200,161,101,0.15);
+    color: #c8a165;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* MOBILE-FIRST */
+@media (max-width: 768px) {
+
+    .about-cta-map {
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    .about-cta-map h2 {
+        font-size: 30px;
+    }
+
+    .about-cta-map p {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 18px 20px;
+        font-size: 15px;
+    }
+
+    .cta-map {
+        margin-top: 40px;
+        height: 280px;
+    }
+}
+/* ==========================
+   ABOUT – MÉTRICAS PREMIUM
+========================== */
+
+.about-metrics-premium {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.metric-box {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 35px 25px;
+    text-align: center;
+}
+
+.metric-box.highlight {
+    background: linear-gradient(135deg, #111, #222);
+    color: #fff;
+}
+
+.metric-number {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #c8a165;
+}
+
+.metric-box.highlight .metric-number {
+    color: #c8a165;
+}
+
+.metric-label {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.metric-text {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .about-metrics-premium {
+        grid-template-columns: 1fr;
+    }
+/* ==========================
+   ABOUT – CARROSSEL NATURAL
+========================== */
+
+.about-carousel {
+    width: 100%;
+}
+
+.about-carousel .carousel-inner {
+    width: 100%;
+}
+
+.about-carousel .item {
+    width: 100%;
+}
+
+.about-carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* evita pulo brusco entre slides */
+.carousel-inner > .item {
+    transition: opacity 0.6s ease;
+}
+/* GARANTE HERO ACIMA DOS CARDS */
+.fh5co-cover {
+    position: relative;
+    z-index: 5;
+}
+@media (max-width: 768px) {
+
+    /* Aumenta espaço abaixo do hero */
+    .fh5co-cover {
+        margin-bottom: 120px;
+    }
+
+    /* Cards começam depois do hero */
+    .fh5co-listing:first-of-type {
+        margin-top: 0;
+    }
+}
+@media (max-width: 768px) {
+
+    .fh5co-cover .desc {
+        margin-top: 0;
+        padding: 0 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 1.25;
+        margin-bottom: 15px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .hero-btn {
+        width: 100%;
+        max-width: 280px;
+        padding: 16px 0;
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .fh5co-cover {
+        position: relative;
+        z-index: 10;
+    }
+
+    .fh5co-listing {
+        position: relative;
+        z-index: 1;
+    }
+
+}
+/* HERO MENU ROLÔ */
+.menu-hero {
+    height: 65vh;
+    min-height: 480px;
+    background: url("../images/Persianas/Rolô/Rolô4.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.menu-hero .desc {
+    margin-top: 0;
+}
+@media (max-width: 768px) {
+    .menu-hero {
+        height: 80vh;
+    }
+}
+/* AJUSTE FINO DO HERO */
+.menu-hero .desc {
+    padding-top: 120px;
+}@media (max-width: 768px) {
+    .menu-hero .desc {
+        padding-top: 80px;
+    }
+}
+.fh5co-listing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* ==========================
+   FOOTER PREMIUM
+========================== */
+
+#footer {
+    background: #111;
+    padding: 50px 0 30px;
+}
+
+.footer-container {
+    color: #ccc;
+}
+
+/* COLUNAS */
+.footer-top {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ESQUERDA */
+.footer-info {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.footer-address {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.footer-phone {
+    margin-bottom: 4px;
+}
+
+/* DIREITA */
+.footer-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* centraliza verticalmente */
+    margin: 0 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    font-size: 26px;
+    color: #ccc;
+    margin-left: 18px;
+    transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #c8a165;
+}
+
+/* LINHA CENTRAL */
+/* LINHA VERTICAL CENTRAL NO FOOTER */
+/* LINHA VERTICAL CENTRAL NO FOOTER */
+/* ==========================
+   LINHA VERTICAL FOOTER (REAL)
+========================== */
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer-divider {
+    width: 1px;
+    height: 80px;
+    background: rgba(255,255,255,0.3);
+    margin: 0 30px;
+}
+
+.footer-top {
+    position: relative;
+    min-height: 90px; /* garante altura para a linha */
+}
+/* COPYRIGHT */
+.footer-copy {
+    font-size: 14px;
+    color: #999;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+@media (max-width: 768px) {
+
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* MENSAGEM DE SUCESSO */
+.form-success {
+    display: none;
+    text-align: center;
+    background: rgba(200,161,101,0.15);
+    border: 1px solid #c8a165;
+    color: #fff;
+    padding: 30px 25px;
+    border-radius: 16px;
+    margin-top: 25px;
+}
+
+.form-success h3 {
+    color: #c8a165;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.form-success p {
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* ===== CORREÇÃO DEFINITIVA HEADER CONTACT ===== */
+
+#fh5co-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#fh5co-header-section {
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(6px);
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+#fh5co-menu-wrap {
+  margin-left: auto;
+}
+
+/* evita menu mobile no desktop */
+@media (min-width: 769px) {
+  .fh5co-nav-toggle {
+    display: none !important;
+  }
+}
+}

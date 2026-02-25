@@ -1,0 +1,163 @@
+/* =====================================================
+   HEADER / NAVBAR
+   ===================================================== */
+#fh5co-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(6px);
+}
+
+#fh5co-header-section .nav-header ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+#fh5co-header-section .nav-header ul li a:hover {
+    color: #c8a165;
+}
+
+a.logo img {
+    width: 200px;
+}
+
+a.logo {
+    margin-right: 40px;
+}
+
+/* =====================================================
+   LISTAGEM DE CARDS
+   ===================================================== */
+
+/* Espaço REAL abaixo do header fixo */
+.fh5co-listing {
+    padding-top: 200px; /* evita sobreposição */
+    padding-bottom: 60px;
+}
+
+/* Remove centralização vertical (causava problema) */
+.fh5co-listing {
+    display: block;
+    min-height: auto;
+}
+
+/* Linha dos cards */
+.fh5co-listing .row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Wrapper */
+.fh5co-item-wrap {
+    margin-bottom: 40px;
+}
+
+/* Card */
+.fh5co-listing-item {
+    display: block;
+    overflow: hidden;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+    height: 100%; /* garante padronização */
+}
+
+.fh5co-listing-item:hover {
+    transform: translateY(-6px);
+}
+
+/* Imagem padronizada */
+.fh5co-listing-item img {
+    width: 100%;
+    height: 340px; /* TODOS IGUAIS */
+    object-fit: cover;
+    display: block;
+}
+
+/* Texto abaixo do card */
+.fh5co-listing-copy {
+    position: static;
+    background: transparent;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.fh5co-listing-copy h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.fh5co-listing-copy p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Remove elementos antigos */
+.fh5co-listing-copy:before,
+.fh5co-listing-copy:after,
+.fh5co-listing-copy span {
+    display: none !important;
+}
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+/* 1 card por linha */
+@media (max-width: 768px) {
+    .fh5co-listing .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fh5co-item-wrap {
+        width: 100% !important;
+        float: none !important;
+    }
+
+    .fh5co-item-wrap[class*="col-"] {
+        width: 100% !important;
+    }
+
+    /* Oculta apenas a descrição */
+    .fh5co-listing-copy p {
+        display: none !important;
+    }
+
+    /* Imagens proporcionais no mobile */
+    .fh5co-listing-item img {
+        height: 300px;
+    }
+}
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+#footer {
+    background: #111;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#footer p,
+#footer a {
+    color: #ccc;
+}
+
+#footer a:hover {
+    color: #c8a165;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        margin-top: 70px;
+        padding-top: 30px;
+    }
+}
+
+/* Remove hero */
+.menu-hero,
+.fh5co-cover {
+    display: none;
+}
